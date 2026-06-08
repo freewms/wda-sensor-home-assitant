@@ -38,7 +38,7 @@ def calc_target(
     exponent = exp_min + normalized_hc * (exp_max - exp_min)
 
     # The maximum temperature of the coolant — from 20 to 150°C
-    a = 30 + (150 - 20) * normalized_hc
+    a = 30 + (150 - 30) * normalized_hc
 
     # Temperature factor
     denominator = outside_temp_max - outside_temp_min
